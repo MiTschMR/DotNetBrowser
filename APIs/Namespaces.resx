@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accessibility_Namespaces" xml:space="preserve">
+    <value>Accessibility</value>
+  </data>
+  <data name="Microsoft.Activities_Namespaces" xml:space="preserve">
+    <value>Microsoft.Activities.Build,Microsoft.Activities.Build.Debugger,Microsoft.Activities.Build.Expressions,Microsoft.Activities.Build.Validation</value>
+  </data>
+  <data name="Microsoft.Build_Namespaces" xml:space="preserve">
+    <value>Microsoft.Build.BuildEngine,Microsoft.Build.Construction,Microsoft.Build.Conversion,Microsoft.Build.Debugging,Microsoft.Build.Evaluation,Microsoft.Build.Exceptions,Microsoft.Build.Execution,Microsoft.Build.Framework,Microsoft.Build.Framework.XamlTypes,Microsoft.Build.Logging,Microsoft.Build.Tasks,Microsoft.Build.Tasks.Deployment.Bootstrapper,Microsoft.Build.Tasks.Deployment.ManifestUtilities,Microsoft.Build.Tasks.Hosting,Microsoft.Build.Tasks.Windows,Microsoft.Build.Tasks.Xaml,Microsoft.Build.Utilities</value>
+  </data>
+  <data name="Microsoft.CSharp_Namespaces" xml:space="preserve">
+    <value>Microsoft.CSharp,Microsoft.CSharp.Activities,Microsoft.CSharp.RuntimeBinder</value>
+  </data>
+  <data name="Microsoft.JScript_Namespaces" xml:space="preserve">
+    <value>Microsoft.JScript,Microsoft.JScript.Vsa</value>
+  </data>
+  <data name="Microsoft.SqlServer_Namespaces" xml:space="preserve">
+    <value>Microsoft.SqlServer.Server</value>
+  </data>
+  <data name="Microsoft.VisualBasic_Namespaces" xml:space="preserve">
+    <value>Microsoft.VisualBasic,Microsoft.VisualBasic.Activities,Microsoft.VisualBasic.Activities.XamlIntegration,Microsoft.VisualBasic.ApplicationServices,Microsoft.VisualBasic.Compatibility.VB6,Microsoft.VisualBasic.CompilerServices,Microsoft.VisualBasic.Devices,Microsoft.VisualBasic.FileIO,Microsoft.VisualBasic.Logging,Microsoft.VisualBasic.MyServices,Microsoft.VisualBasic.MyServices.Internal</value>
+  </data>
+  <data name="Microsoft.VisualC_Namespaces" xml:space="preserve">
+    <value>Microsoft.VisualC,Microsoft.VisualC.StlClr,Microsoft.VisualC.StlClr.Generic</value>
+  </data>
+  <data name="Microsoft.Win32_Namespaces" xml:space="preserve">
+    <value>Microsoft.Win32,Microsoft.Win32.SafeHandles</value>
+  </data>
+  <data name="Microsoft.Windows_Namespaces" xml:space="preserve">
+    <value>Microsoft.Windows.Input,Microsoft.Windows.Themes</value>
+  </data>
+  <data name="System.Activities.Core_Namespaces" xml:space="preserve">
+    <value>System.Activities.Core.Presentation,System.Activities.Core.Presentation.Factories,System.Activities.Core.Presentation.Themes</value>
+  </data>
+  <data name="System.Activities.Debugger_Namespaces" xml:space="preserve">
+    <value>System.Activities.Debugger,System.Activities.Debugger.Symbol</value>
+  </data>
+  <data name="System.Activities.DurableInstancing_Namespaces" xml:space="preserve">
+    <value>System.Activities.DurableInstancing</value>
+  </data>
+  <data name="System.Activities.DynamicUpdate_Namespaces" xml:space="preserve">
+    <value>System.Activities.DynamicUpdate</value>
+  </data>
+  <data name="System.Activities.ExpressionParser_Namespaces" xml:space="preserve">
+    <value>System.Activities.ExpressionParser</value>
+  </data>
+  <data name="System.Activities.Expressions_Namespaces" xml:space="preserve">
+    <value>System.Activities.Expressions</value>
+  </data>
+  <data name="System.Activities.Hosting_Namespaces" xml:space="preserve">
+    <value>System.Activities.Hosting</value>
+  </data>
+  <data name="System.Activities.Persistence_Namespaces" xml:space="preserve">
+    <value>System.Activities.Persistence</value>
+  </data>
+  <data name="System.Activities.Presentation_Namespaces" xml:space="preserve">
+    <value>System.Activities.Presentation,System.Activities.Presentation.Annotations,System.Activities.Presentation.Converters,System.Activities.Presentation.Debug,System.Activities.Presentation.Expressions,System.Activities.Presentation.Hosting,System.Activities.Presentation.Metadata,System.Activities.Presentation.Model,System.Activities.Presentation.PropertyEditing,System.Activities.Presentation.Services,System.Activities.Presentation.Sqm,System.Activities.Presentation.Toolbox,System.Activities.Presentation.Validation,System.Activities.Presentation.View,System.Activities.Presentation.View.OutlineView,System.Activities.Presentation.ViewState</value>
+  </data>
+  <data name="System.Activities.Statements_Namespaces" xml:space="preserve">
+    <value>System.Activities.Statements,System.Activities.Statements.Tracking</value>
+  </data>
+  <data name="System.Activities.Tracking_Namespaces" xml:space="preserve">
+    <value>System.Activities.Tracking</value>
+  </data>
+  <data name="System.Activities.Validation_Namespaces" xml:space="preserve">
+    <value>System.Activities.Validation</value>
+  </data>
+  <data name="System.Activities.XamlIntegration_Namespaces" xml:space="preserve">
+    <value>System.Activities.XamlIntegration</value>
+  </data>
+  <data name="System.Activities_Namespaces" xml:space="preserve">
+    <value>System.Activities</value>
+  </data>
+  <data name="System.AddIn_Namespaces" xml:space="preserve">
+    <value>System.AddIn,System.AddIn.Contract,System.AddIn.Contract.Automation,System.AddIn.Contract.Collections,System.AddIn.Hosting,System.AddIn.Pipeline</value>
+  </data>
+  <data name="System.CodeDom_Namespaces" xml:space="preserve">
+    <value>System.CodeDom,System.CodeDom.Compiler</value>
+  </data>
+  <data name="System.Collections_Namespaces" xml:space="preserve">
+    <value>System.Collections,System.Collections.Concurrent,System.Collections.Generic,System.Collections.ObjectModel,System.Collections.Specialized</value>
+  </data>
+  <data name="System.ComponentModel.Composition_Namespaces" xml:space="preserve">
+    <value>System.ComponentModel.Composition,System.ComponentModel.Composition.Hosting,System.ComponentModel.Composition.Primitives,System.ComponentModel.Composition.ReflectionModel,System.ComponentModel.Composition.Registration</value>
+  </data>
+  <data name="System.ComponentModel.DataAnnotations_Namespaces" xml:space="preserve">
+    <value>System.ComponentModel.DataAnnotations,System.ComponentModel.DataAnnotations.Schema</value>
+  </data>
+  <data name="System.ComponentModel.Design_Namespaces" xml:space="preserve">
+    <value>System.ComponentModel.Design,System.ComponentModel.Design.Data,System.ComponentModel.Design.Serialization</value>
+  </data>
+  <data name="System.ComponentModel_Namespaces" xml:space="preserve">
+    <value>System.ComponentModel</value>
+  </data>
+  <data name="System_Namespaces" xml:space="preserve">
+    <value>System</value>
+  </data>
+</root>
