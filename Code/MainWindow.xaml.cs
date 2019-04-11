@@ -569,16 +569,21 @@ namespace DotNetBrowser
             string[] enumNames;
             string[] enumDescriptions;
 
+            string[] delegateNames;
+            string[] delegateDescriptions;
+
             int classCounter = 0;
             int structCounter = 0;
             int interfaceCounter = 0;
             int enumCounter = 0;
+            int delegateCounter = 0;
 
             TextBlock tvi = e.OriginalSource as TextBlock;
             List<Class> listClasses = new List<Class>();
             List<Struct> listStructs = new List<Struct>();
             List<Interface> listInterfaces = new List<Interface>();
             List<Enum> listEnums = new List<Enum>();
+            List<Delegate> listDelegates = new List<Delegate>();
 
             #endregion Variable definition
 
@@ -620,8 +625,8 @@ namespace DotNetBrowser
                 }
                 else
                 {
-                    Text_Classes.Visibility = Visibility.Hidden;
-                    GridView_Classes.Visibility = Visibility.Hidden;
+                    Text_Classes.Visibility = Visibility.Collapsed;
+                    GridView_Classes.Visibility = Visibility.Collapsed;
                 }
 
                 #endregion Classes table
@@ -659,8 +664,8 @@ namespace DotNetBrowser
                 }
                 else
                 {
-                    Text_Structs.Visibility = Visibility.Hidden;
-                    GridView_Structs.Visibility = Visibility.Hidden;
+                    Text_Structs.Visibility = Visibility.Collapsed;
+                    GridView_Structs.Visibility = Visibility.Collapsed;
                 }
 
                 #endregion Structs table
@@ -698,8 +703,8 @@ namespace DotNetBrowser
                 }
                 else
                 {
-                    Text_Interfaces.Visibility = Visibility.Hidden;
-                    GridView_Interfaces.Visibility = Visibility.Hidden;
+                    Text_Interfaces.Visibility = Visibility.Collapsed;
+                    GridView_Interfaces.Visibility = Visibility.Collapsed;
                 }
 
                 #endregion Interfaces table
@@ -737,11 +742,50 @@ namespace DotNetBrowser
                 }
                 else
                 {
-                    Text_Enums.Visibility = Visibility.Hidden;
-                    GridView_Enums.Visibility = Visibility.Hidden;
+                    Text_Enums.Visibility = Visibility.Collapsed;
+                    GridView_Enums.Visibility = Visibility.Collapsed;
                 }
 
                 #endregion Enums table
+
+                #region Delegates table
+
+                try
+                {
+                    delegateNames = DotNetBrowser.APIs.Delegates.Delegates.ResourceManager.GetString(tvi.Text + "_DelegateName").Split('^');
+                }
+                catch (NullReferenceException)
+                {
+                    delegateNames = null;
+                }
+                try
+                {
+                    delegateDescriptions = DotNetBrowser.APIs.Delegates.Descriptions.ResourceManager.GetString(tvi.Text + "_DelegateDescription").Split('^');
+                }
+                catch (NullReferenceException)
+                {
+                    delegateDescriptions = null;
+                }
+
+                if (delegateNames != null)
+                {
+                    Text_Delegates.Visibility = Visibility.Visible;
+                    GridView_Delegates.Visibility = Visibility.Visible;
+
+                    foreach (string delegateName in delegateNames)
+                    {
+                        Delegate apiDelegate = new Delegate(delegateName, delegateDescriptions[delegateCounter]);
+                        listDelegates.Add(apiDelegate);
+                        delegateCounter++;
+                    }
+                }
+                else
+                {
+                    Text_Delegates.Visibility = Visibility.Collapsed;
+                    GridView_Delegates.Visibility = Visibility.Collapsed;
+                }
+
+                #endregion Delegates table
 
                 #region Add lists to GridView
 
@@ -749,6 +793,7 @@ namespace DotNetBrowser
                 GridView_Structs.ItemsSource = listStructs;
                 GridView_Interfaces.ItemsSource = listInterfaces;
                 GridView_Enums.ItemsSource = listEnums;
+                GridView_Delegates.ItemsSource = listDelegates;
 
                 #endregion Add lists to GridView
             }
@@ -814,6 +859,17 @@ namespace DotNetBrowser
         public class Enum
         {
             public Enum(string name, string description)
+            {
+                Name = name;
+                Description = description;
+            }
+            public string Name { get; private set; }
+            public string Description { get; private set; }
+        }
+
+        public class Delegate
+        {
+            public Delegate(string name, string description)
             {
                 Name = name;
                 Description = description;
