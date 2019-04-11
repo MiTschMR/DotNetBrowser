@@ -117,19 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Accessability_Class" xml:space="preserve">
+  <data name="Accessibility_ClassName" xml:space="preserve">
     <value>CAccPropServicesClass</value>
   </data>
-  <data name="Microsoft.Activities.Build.Debugger_Class" xml:space="preserve">
+  <data name="Microsoft.Activities.Build.Debugger_ClassName" xml:space="preserve">
     <value>DebugBuildExtension</value>
   </data>
-  <data name="Microsoft.Activities.Build.Expressions_Class" xml:space="preserve">
+  <data name="Microsoft.Activities.Build.Expressions_ClassName" xml:space="preserve">
     <value>ExpressionsBuildExtension</value>
   </data>
-  <data name="Microsoft.Activities.Build.Validation_Class" xml:space="preserve">
-    <value>DeferredValidationTask,ReportDeferredValidationErrorsTask</value>
+  <data name="Microsoft.Activities.Build.Validation_ClassName" xml:space="preserve">
+    <value>DeferredValidationTask^ReportDeferredValidationErrorsTask</value>
   </data>
-  <data name="Microsoft.Activities.Build_Class" xml:space="preserve">
+  <data name="Microsoft.Activities.Build_ClassName" xml:space="preserve">
     <value>WorkflowBuildMessageTask</value>
+  </data>
+  <data name="Microsoft.Build.BuildEngine_ClassName" xml:space="preserve">
+    <value>BuildItem^BuildItemGroup^BuildItemGroupCollection^BuildProperty^BuildPropertyGroup^BuildPropertyGroupCollection^BuildTask^ConfigurableForwardingLogger^ConsoleLogger^DistributedFileLogger^Engine^FileLogger^Import^ImportCollection^InternalLoggerException^InvalidProjectFileException^InvalidToolsetDefinitionException^LocalNode^LoggerDescription^Project^RemoteErrorException^SolutionWrapperProject^Target^TargetCollection^Toolset^ToolsetCollection^UsingTask^UsingTaskCollection^Utilities</value>
+  </data>
+  <data name="Microsoft.Build.Construction_ClassName" xml:space="preserve">
+    <value>ElementLocation^ProjectChooseElement^ProjectElement^ProjectElementContainer^ProjectExtensionsElement^ProjectImportElement^ProjectImportGroupElement^ProjectItemDefinitionElement^ProjectItemDefinitionGroupElement^ProjectItemElement^ProjectItemGroupElement^ProjectMetadataElement^ProjectOnErrorElement^ProjectOtherwiseElement^ProjectOutputElement^ProjectPropertyElement^ProjectPropertyGroupElement^ProjectRootElement^ProjectTargetElement^ProjectTaskElement^ProjectUsingTaskBodyElement^ProjectUsingTaskElement^ProjectUsingTaskParameterElement^ProjectWhenElement^UsingTaskParameterGroupElement</value>
+  </data>
+  <data name="Microsoft.Build.Conversion_ClassName" xml:space="preserve">
+    <value>ProjectFileConverter</value>
+  </data>
+  <data name="Microsoft.Build.Debugging_ClassName" xml:space="preserve">
+    <value>DebuggerManager^DebuggerManager.IslandThread</value>
+  </data>
+  <data name="Microsoft.Build.Evaluation_ClassName" xml:space="preserve">
+    <value>Project^ProjectChangedEventArgs^ProjectCollection^ProjectCollection.ProjectAddedToProjectCollectionEventArgs^ProjectCollectionChangedEventArgs^ProjectItem^ProjectItemDefinition^ProjectMetadata^ProjectProperty^ProjectXmlChangedEventArgs^SubToolset^Toolset</value>
+  </data>
+  <data name="Microsoft.Build.Exceptions_ClassName" xml:space="preserve">
+    <value>BuildAbortedException^InternalLoggerException^InvalidProjectFileException^InvalidToolsetDefinitionException</value>
+  </data>
+  <data name="Microsoft.Build.Execution_ClassName" xml:space="preserve">
+    <value>BuildManager^BuildParameters^BuildRequestData^BuildResult^BuildSubmission^HostServices^OutOfProcNode^ProjectInstance^ProjectItemDefinitionInstance^ProjectItemGroupTaskInstance^ProjectItemGroupTaskItemInstance^ProjectItemGroupTaskMetadataInstance^ProjectItemInstance^ProjectMetadataInstance^ProjectOnErrorInstance^ProjectPropertyGroupTaskInstance^ProjectPropertyGroupTaskPropertyInstance^ProjectPropertyInstance^ProjectTargetInstance^ProjectTargetInstanceChild^ProjectTaskInstance^ProjectTaskInstanceChild^ProjectTaskOutputItemInstance^ProjectTaskOutputPropertyInstance^TargetResult</value>
   </data>
 </root>
