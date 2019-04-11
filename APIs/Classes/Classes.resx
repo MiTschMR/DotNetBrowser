@@ -165,7 +165,19 @@
   <data name="Microsoft.Build.Tasks.Deployment.Bootstrapper_ClassName" xml:space="preserve">
     <value>BootstrapperBuilder^BuildMessage^BuildResults^BuildSettings^Product^ProductBuilder^ProductBuilderCollection^ProductCollection</value>
   </data>
+  <data name="Microsoft.Build.Tasks.Deployment.ManifestUtilities_ClassName" xml:space="preserve">
+    <value>ApplicationIdentity^ApplicationManifest^AssemblyIdentity^AssemblyManifest^AssemblyReference^AssemblyReferenceCollection^BaseReference^ComClass^CompatibleFramework^CompatibleFrameworkCollection^DeployManifest^FileAssociation^FileAssociationCollection^FileReference^FileReferenceCollection^Manifest^ManifestReader^ManifestWriter^OutputMessage^OutputMessageCollection^ProxyStub^SecurityUtilities^TrustInfo^TypeLib^WindowClass</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Windows_ClassName" xml:space="preserve">
+    <value>FileClassifier^GenerateTemporaryTargetAssembly^GetWinFXPath^MarkupCompilePass1^MarkupCompilePass2^MergeLocalizationDirectives^ResourcesGenerator^UidManager^UpdateManifestForBrowserApplication</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Xaml_ClassName" xml:space="preserve">
+    <value>AttributeData^AttributeParameterData^BuildExtensionContext^ClassData^CommandLineArgumentRelation^CommandLineGenerator^CommandLineToolSwitch^CompilationPass2Task^GenerateTemporaryAssemblyTask^NamedObject^PartialClassGenerationTask^PropertyData^PropertyRelation^XamlBuildTypeGenerationExtensionContext^XamlBuildTypeInspectionExtensionContext^XamlDataDrivenToolTask</value>
+  </data>
   <data name="Microsoft.Build.Tasks_ClassName" xml:space="preserve">
     <value>AL^AppDomainIsolatedTaskExtension^AspNetCompiler^AssignCulture^AssignProjectConfiguration^AssignTargetPath^CallTarget^CodeTaskFactory^CombinePath^CommandLineBuilderExtension^ConvertToAbsolutePath^Copy^CreateCSharpManifestResourceName^CreateItem^CreateManifestResourceName^CreateProperty^CreateVisualBasicManifestResourceName^Csc^Delete^Error^Exec^FindAppConfigFile^FindInList^FindUnderPath^FormatUrl^FormatVersion^GenerateApplicationManifest^GenerateBootstrapper^GenerateDeploymentManifest^GenerateManifestBase^GenerateResource^GenerateTrustInfo^GetAssemblyIdentity^GetFrameworkPath^GetFrameworkSdkPath^GetInstalledSDKLocations^GetReferenceAssemblyPaths^GetSDKReferenceFiles^LC^MakeDir^ManagedCompiler^Message^Move^MSBuild^ReadLinesFromFile^RegisterAssembly^RemoveDir^RemoveDuplicates^RequiresFramework35SP1Assembly^ResolveAssemblyReference^ResolveComReference^ResolveKeySource^ResolveManifestFiles^ResolveNativeReference^ResolveNonMSBuildProjectOutput^ResolveProjectBase^ResolveSDKReference^SGen^SignFile^TaskExtension^TaskLoggingHelperExtension^ToolTaskExtension^Touch^UnregisterAssembly^UpdateManifest^Vbc^Warning^WinMDExp^WriteCodeFragment^WriteLinesToFile^XamlTaskFactory^XmlPeek^XmlPoke^XslTransformation</value>
+  </data>
+  <data name="Microsoft.Build.Utilities_ClassName" xml:space="preserve">
+    <value>AppDomainIsolatedTask^AssemblyFoldersExInfo^CanonicalTrackedInputFiles^CanonicalTrackedOutputFiles^CommandLineBuilder^FileTracker^FlatTrackingData^Logger^MuxLogger^ProcessorArchitecture^TargetPlatformSDK^Task^TaskItem^TaskLoggingHelper^ToolLocationHelper^ToolTask^TrackedDependencies</value>
   </data>
 </root>
