@@ -132,4 +132,7 @@
   <data name="Microsoft.Build.Logging_DelegateDescription" xml:space="preserve">
     <value>Type of delegate used to reset console color.^Type of delegate used to set console color.^Delegate used for writing a string to some location like the console window or the IDE build window.</value>
   </data>
+  <data name="Microsoft.Build.Utilities_DelegateDescription" xml:space="preserve">
+    <value>Dependency filter delegate. Used during TLog saves in order for tasks to selectively remove dependencies from the written graph.</value>
+  </data>
 </root>
