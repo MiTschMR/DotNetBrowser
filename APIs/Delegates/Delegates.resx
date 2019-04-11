@@ -132,4 +132,7 @@
   <data name="Microsoft.Build.Logging_DelegateName" xml:space="preserve">
     <value>ColorResetter^ColorSetter^WriteHandler</value>
   </data>
+  <data name="Microsoft.Build.Utilities_DelegateName" xml:space="preserve">
+    <value>DependencyFilter</value>
+  </data>
 </root>
