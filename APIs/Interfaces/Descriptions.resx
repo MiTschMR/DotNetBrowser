@@ -132,6 +132,14 @@
   <data name="Microsoft.Build.Tasks.Deployment.Bootstrapper_InterfaceDescription" xml:space="preserve">
     <value>Exposes functionality that you must have to create a bootstrapper.^Represents messages that occur during the BootstrapperBuilder build operation.^Represents the results of the BootstrapperBuilder build operation.^Defines the settings for the bootstrapper build operation.^Represents a product that the BootstrapperBuilder finds in the Path property.^Represents a buildable version of a Product.^Contains a collection of ProductBuilder objects.^Represents a collection of Product objects.</value>
   </data>
+  <data name="Microsoft.Build.Tasks.Hosting_InterfaceDescription" xml:space="preserve">
+    <value>Defines an interface that allows the Csc task to communicate with the host integrated development environment (IDE).^Defines an interface that allows the Csc task to communicate with the host integrated development environment (IDE).^Represents the Csc host compiler.^Represents the Csc host compiler.^Defines an interface that allows the Vbc task to communicate with the host integrated development environment (IDE).^Defines an interface that allows the Vbc task to communicate with the host integrated development environment (IDE).^Defines an interface that allows the Vbc task to communicate with the host integrated development environment (IDE).^Defines an interface for the Vbc task to communicate with the IDE. In particular, the Vbc task will delegate the actual compilation to the IDE, rather than shelling out to the command-line compilers.^Defines an interface that proffers a free-threaded host object that allows for background threads to call directly (avoids marshalling to the UI thread.^Defines a free-threaded interface for the Vbc task to communicate with the IDE. In particular, the Vbc task will delegate the actual compilation to the IDE, rather than shelling out to the command-line compilers.
+
+This particular version of Compile (unlike the IVbcHostObject::Compile) is not marshalled back to the UI thread. The implementor of the interface is responsible for any marshalling.</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Xaml_InterfaceDescription" xml:space="preserve">
+    <value>Specifies information about the XAML build type generation extension.^Specifies information about the XAML build type inspection extension.</value>
+  </data>
   <data name="Microsoft.Build.Tasks_InterfaceDescription" xml:space="preserve">
     <value>Provides a substitute for ITypeInfo by modifying the definitions of GetRefTypeOfImplType(Int32, IntPtr) and GetRefTypeInfo(IntPtr, IFixedTypeInfo).</value>
   </data>
