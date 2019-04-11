@@ -132,6 +132,12 @@
   <data name="Microsoft.Build.Tasks.Deployment.Bootstrapper_InterfaceName" xml:space="preserve">
     <value>IBootstrapperBuilder^IBuildMessage^IBuildResults^IBuildSettings^IProduct^IProductBuilder^IProductBuilderCollection^IProductCollection</value>
   </data>
+  <data name="Microsoft.Build.Tasks.Hosting_InterfaceName" xml:space="preserve">
+    <value>ICscHostObject^ICscHostObject2^ICscHostObject3^ICscHostObject4^IVbcHostObject^IVbcHostObject2^IVbcHostObject3^IVbcHostObject4^IVbcHostObject5^IVbcHostObjectFreeThreaded</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Xaml_InterfaceName" xml:space="preserve">
+    <value>IXamlBuildTypeGenerationExtension^IXamlBuildTypeInspectionExtension</value>
+  </data>
   <data name="Microsoft.Build.Tasks_InterfaceName" xml:space="preserve">
     <value>IFixedTypeInfo</value>
   </data>
