@@ -212,5 +212,41 @@ namespace DotNetBrowser.APIs.Classes {
                 return ResourceManager.GetString("Microsoft.Build.Tasks.Deployment.Bootstrapper_ClassName", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ApplicationIdentity^ApplicationManifest^AssemblyIdentity^AssemblyManifest^AssemblyReference^AssemblyReferenceCollection^BaseReference^ComClass^CompatibleFramework^CompatibleFrameworkCollection^DeployManifest^FileAssociation^FileAssociationCollection^FileReference^FileReferenceCollection^Manifest^ManifestReader^ManifestWriter^OutputMessage^OutputMessageCollection^ProxyStub^SecurityUtilities^TrustInfo^TypeLib^WindowClass.
+        /// </summary>
+        internal static string Microsoft_Build_Tasks_Deployment_ManifestUtilities_ClassName {
+            get {
+                return ResourceManager.GetString("Microsoft.Build.Tasks.Deployment.ManifestUtilities_ClassName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FileClassifier^GenerateTemporaryTargetAssembly^GetWinFXPath^MarkupCompilePass1^MarkupCompilePass2^MergeLocalizationDirectives^ResourcesGenerator^UidManager^UpdateManifestForBrowserApplication.
+        /// </summary>
+        internal static string Microsoft_Build_Tasks_Windows_ClassName {
+            get {
+                return ResourceManager.GetString("Microsoft.Build.Tasks.Windows_ClassName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AttributeData^AttributeParameterData^BuildExtensionContext^ClassData^CommandLineArgumentRelation^CommandLineGenerator^CommandLineToolSwitch^CompilationPass2Task^GenerateTemporaryAssemblyTask^NamedObject^PartialClassGenerationTask^PropertyData^PropertyRelation^XamlBuildTypeGenerationExtensionContext^XamlBuildTypeInspectionExtensionContext^XamlDataDrivenToolTask.
+        /// </summary>
+        internal static string Microsoft_Build_Tasks_Xaml_ClassName {
+            get {
+                return ResourceManager.GetString("Microsoft.Build.Tasks.Xaml_ClassName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AppDomainIsolatedTask^AssemblyFoldersExInfo^CanonicalTrackedInputFiles^CanonicalTrackedOutputFiles^CommandLineBuilder^FileTracker^FlatTrackingData^Logger^MuxLogger^ProcessorArchitecture^TargetPlatformSDK^Task^TaskItem^TaskLoggingHelper^ToolLocationHelper^ToolTask^TrackedDependencies.
+        /// </summary>
+        internal static string Microsoft_Build_Utilities_ClassName {
+            get {
+                return ResourceManager.GetString("Microsoft.Build.Utilities_ClassName", resourceCulture);
+            }
+        }
     }
 }
