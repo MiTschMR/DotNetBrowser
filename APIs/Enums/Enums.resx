@@ -138,4 +138,13 @@
   <data name="Microsoft.Build.Tasks.Deployment.Bootstrapper_EnumName" xml:space="preserve">
     <value>BuildMessageSeverity^ComponentsLocation</value>
   </data>
+  <data name="Microsoft.Build.Tasks.Deployment.ManifestUtilities_EnumName" xml:space="preserve">
+    <value>AssemblyIdentity.FullNameFlags^AssemblyReferenceType^OutputMessageType^UpdateMode^UpdateUnit</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Xaml_EnumName" xml:space="preserve">
+    <value>CommandLineToolSwitchType^MemberVisibility</value>
+  </data>
+  <data name="Microsoft.Build.Utilities_EnumName" xml:space="preserve">
+    <value>DotNetFrameworkArchitecture^ExecutableType^HostObjectInitializationStatus^TargetDotNetFrameworkVersion^UpToDateCheckType^VisualStudioVersion</value>
+  </data>
 </root>
