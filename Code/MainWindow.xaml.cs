@@ -800,7 +800,7 @@ namespace DotNetBrowser
             else
             {
                 Text_Headline.Text = "Welcome to DotNetBrowser";
-                Text_Description.Text = "Start with browsing the tree on the left side.";
+                Text_Description.Text = "Start browsing with the tree on the left side.";
 
                 Text_Classes.Visibility = Visibility.Hidden;
                 GridView_Classes.Visibility = Visibility.Hidden;
