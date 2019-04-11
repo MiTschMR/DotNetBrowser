@@ -797,6 +797,31 @@ namespace DotNetBrowser
 
                 #endregion Add lists to GridView
             }
+            else
+            {
+                Text_Headline.Text = "Welcome to DotNetBrowser";
+                Text_Description.Text = "Start with browsing the tree on the left side.";
+
+                Text_Classes.Visibility = Visibility.Hidden;
+                GridView_Classes.Visibility = Visibility.Hidden;
+                GridView_Classes.ItemsSource = null;
+
+                Text_Structs.Visibility = Visibility.Hidden;
+                GridView_Structs.Visibility = Visibility.Hidden;
+                GridView_Structs.ItemsSource = null;
+
+                Text_Interfaces.Visibility = Visibility.Hidden;
+                GridView_Interfaces.Visibility = Visibility.Hidden;
+                GridView_Interfaces.ItemsSource = null;
+
+                Text_Enums.Visibility = Visibility.Hidden;
+                GridView_Enums.Visibility = Visibility.Hidden;
+                GridView_Enums.ItemsSource = null;
+
+                Text_Delegates.Visibility = Visibility.Hidden;
+                GridView_Delegates.Visibility = Visibility.Hidden;
+                GridView_Delegates.ItemsSource = null;
+            }
         }
 
         public class RootNode
