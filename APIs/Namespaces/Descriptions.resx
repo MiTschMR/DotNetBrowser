@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accessibility_NamespaceDescription" xml:space="preserve">
+    <value>The Accessibility and all of its exposed members are part of a managed wrapper for the Component Object Model (COM) accessibility interface.</value>
+  </data>
+  <data name="Microsoft.Activities.Build.Debugger_NamespaceDescription" xml:space="preserve">
+    <value>Classes related to the build debugger.</value>
+  </data>
+  <data name="Microsoft.Activities.Build.Expressions_NamespaceDescription" xml:space="preserve">
+    <value>Classes related to build expressions.</value>
+  </data>
+  <data name="Microsoft.Activities.Build.Validation_NamespaceDescription" xml:space="preserve">
+    <value>The provides classes related to build validation.</value>
+  </data>
+  <data name="Microsoft.Activities.Build_NamespaceDescription" xml:space="preserve">
+    <value>Classes related to workflow build tasks.</value>
+  </data>
+  <data name="Microsoft.Build.BuildEngine_NamespaceDescription" xml:space="preserve">
+    <value>The namespace represents the MSBuild engine. For information, see MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Construction_NamespaceDescription" xml:space="preserve">
+    <value>Contains types that the MSBuild object model uses to construct project roots with unevaluated values. Each project root corresponds to a project or targets file. For information, see MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Conversion_NamespaceDescription" xml:space="preserve">
+    <value>Contains types that Visual Studio uses to convert project files from an older version of Visual Studio.</value>
+  </data>
+  <data name="Microsoft.Build.Debugging_NamespaceDescription" xml:space="preserve">
+    <value>Contains type for managing the debugger.</value>
+  </data>
+  <data name="Microsoft.Build.Evaluation_NamespaceDescription" xml:space="preserve">
+    <value>Contains types that the MSBuild object model uses to evaluate projects. Each project is associated with one or more project roots. For information, see MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Exceptions_NamespaceDescription" xml:space="preserve">
+    <value>Contains exception types that may be thrown during the build process.</value>
+  </data>
+  <data name="Microsoft.Build.Execution_NamespaceDescription" xml:space="preserve">
+    <value>Contains types that the MSBuild object model uses to build projects. For information, see MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Framework.XamlTypes_NamespaceDescription" xml:space="preserve">
+    <value>Classes used to represent XAML types parsed from files, rules, and other sources.</value>
+  </data>
+  <data name="Microsoft.Build.Framework_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains the types that define how tasks and loggers interact with the MSBuild engine. For information, see MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Logging_NamespaceDescription" xml:space="preserve">
+    <value>Contains types used for logging the progress of a build. For information, see MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Deployment.Bootstrapper_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains classes used internally by MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Deployment.ManifestUtilities_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains classes that MSBuild uses.</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Hosting_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains classes used internally by MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Windows_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains the implementation of all tasks shipping with MSBuild. The types in this namespace support the Windows Presentation Foundation (WPF) infrastructure and are not intended to be used directly from your code.</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Xaml_NamespaceDescription" xml:space="preserve">
+    <value>Provides classes related to XAML build tasks.</value>
+  </data>
+  <data name="Microsoft.Build.Tasks_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains the implementation of all tasks shipping with MSBuild. For information, see MSBuild.</value>
+  </data>
+  <data name="Microsoft.Build.Utilities_NamespaceDescription" xml:space="preserve">
+    <value>The namespace provides helper classes that you can use to create your own MSBuild loggers and tasks. For information, see MSBuild.</value>
+  </data>
+  <data name="Microsoft.CSharp.Activities_NamespaceDescription" xml:space="preserve">
+    <value>Classes related to C# activities.</value>
+  </data>
+  <data name="Microsoft.CSharp.RuntimeBinder_NamespaceDescription" xml:space="preserve">
+    <value>The namespace provides classes and interfaces that support interoperation between Dynamic Language Runtime and C#.</value>
+  </data>
+  <data name="Microsoft.CSharp_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains classes that support compilation and code generation using the C# language.</value>
+  </data>
+  <data name="Microsoft.JScript.Vsa_NamespaceDescription" xml:space="preserve">
+    <value>The Microsoft.JScript.Vsa namespace contains interfaces that allow you to integrate Script for the.NET Framework script engines into JScript, and to compile and execute code at run time.</value>
+  </data>
+  <data name="Microsoft.JScript_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains classes that support compilation and code generation using the JScript language.</value>
+  </data>
+  <data name="Microsoft.SqlServer.Server_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains classes, interfaces, and enumerations that are specific to the integration of the Microsoft .NET Framework common language runtime (CLR) into Microsoft SQL Server, and the SQL Server database engine process execution environment.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.Activities.XamlIntegration_NamespaceDescription" xml:space="preserve">
+    <value>Provides classes related to Visual Basic XAML integration.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.Activities_NamespaceDescription" xml:space="preserve">
+    <value>Provides classes related to Visual Basic activities.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.ApplicationServices_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains types that support the Visual Basic Application Model and provide access to application information.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.Compatibility.VB6_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains functions and objects provided use by the tools for upgrading from Visual Basic 6.0 to Visual Basic 2008.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.CompilerServices_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains internal-use only types that support the Visual Basic compiler.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.Devices_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains types that support the My objects related to devices in Visual Basic.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.FileIO_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains types that support the My file system object in Visual Basic.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.Logging_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains types that support the My logging objects in Visual Basic and provides a simple log listener that directs logging output to file.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.MyServices.Internal_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains internal-use only types that support My in Visual Basic.</value>
+  </data>
+  <data name="Microsoft.VisualBasic.MyServices_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains types that support My in Visual Basic.</value>
+  </data>
+  <data name="Microsoft.VisualBasic_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains types that support the Visual Basic Runtime in Visual Basic.</value>
+  </data>
+  <data name="Microsoft.VisualC.StlClr.Generic_NamespaceDescription" xml:space="preserve">
+    <value>Contains the classes, interfaces, and iterators that are used to implement the generic interface to the . By using this generic interface, other .NET languages, such as C# and Visual Basic, can call code that is written using STL/CLR.</value>
+  </data>
+  <data name="Microsoft.VisualC.StlClr_NamespaceDescription" xml:space="preserve">
+    <value>Contains the classes, interfaces, and enumerators that are used to implement the STL/CLR Library.</value>
+  </data>
+  <data name="Microsoft.VisualC_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains classes that support compilation and code generation using the C++ language.</value>
+  </data>
+  <data name="Microsoft.Win32.SafeHandles_NamespaceDescription" xml:space="preserve">
+    <value>The namespace contains classes that are abstract derivations of safe handle classes that provide common functionality supporting file and operating system handles.</value>
+  </data>
+  <data name="Microsoft.Win32_NamespaceDescription" xml:space="preserve">
+    <value>The namespace provides two types of classes: those that handle events raised by the operating system and those that manipulate the system registry.</value>
+  </data>
+  <data name="Microsoft.Windows.Input_NamespaceDescription" xml:space="preserve">
+    <value>Contains interfaces for preview commands in a Microsoft Ribbon for WPF control.</value>
+  </data>
+  <data name="Microsoft.Windows.Themes_NamespaceDescription" xml:space="preserve">
+    <value>Provides exposure to the set of themes defined by Windows Presentation Foundation. In WPF, a theme is a set of resources, defined at the system level, which provide the default appearance for controls and other visual elements of an application. WPF themes are created using styles and include Luna, Aero, Royale, and Classic. Only the client area of a WPF application uses these themes; the appearance of the window border and buttons that form the window chrome is controlled by the Win32 theme service.</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+</root>
