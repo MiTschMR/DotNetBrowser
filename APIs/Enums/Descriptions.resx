@@ -138,4 +138,13 @@
   <data name="Microsoft.Build.Tasks.Deployment.Bootstrapper_EnumDescription" xml:space="preserve">
     <value>This enumeration provides three levels of importance for build messages.^Specifies the way that required components will be published.</value>
   </data>
+  <data name="Microsoft.Build.Tasks.Deployment.ManifestUtilities_EnumDescription" xml:space="preserve">
+    <value>This class represents the attributes that the GetFullName(AssemblyIdentity+FullNameFlags) function returns.^This class represents the type of an assembly reference.^Specifies the type of output message as either an error, warning, or informational.^Specifies how the application checks for updates.^Specifies the units for the update interval.</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Xaml_EnumDescription" xml:space="preserve">
+    <value>Enumerates the types for command line switches.^Specifies the member visibility options.</value>
+  </data>
+  <data name="Microsoft.Build.Utilities_EnumDescription" xml:space="preserve">
+    <value>Used to specify the targeted bitness of the .NET Framework for some methods of ToolLocationHelper.^Enumeration to express the type of executable being wrapped by Tracker.exe.^Defines the next action for ToolTask after an attempt to initialize the host object.^Specifies the version of the .NET Framework to use with the methods in ToolLocationHelper.^The possible types of up to date check that we can support.^Used to specify the version of Visual Studio from which to select associated tools for some methods of ToolLocationHelper.</value>
+  </data>
 </root>
