@@ -153,4 +153,19 @@
   <data name="Microsoft.Build.Execution_ClassName" xml:space="preserve">
     <value>BuildManager^BuildParameters^BuildRequestData^BuildResult^BuildSubmission^HostServices^OutOfProcNode^ProjectInstance^ProjectItemDefinitionInstance^ProjectItemGroupTaskInstance^ProjectItemGroupTaskItemInstance^ProjectItemGroupTaskMetadataInstance^ProjectItemInstance^ProjectMetadataInstance^ProjectOnErrorInstance^ProjectPropertyGroupTaskInstance^ProjectPropertyGroupTaskPropertyInstance^ProjectPropertyInstance^ProjectTargetInstance^ProjectTargetInstanceChild^ProjectTaskInstance^ProjectTaskInstanceChild^ProjectTaskOutputItemInstance^ProjectTaskOutputPropertyInstance^TargetResult</value>
   </data>
+  <data name="Microsoft.Build.Framework.XamlTypes_ClassName" xml:space="preserve">
+    <value>Argument^BaseProperty^BoolProperty^Category^CategorySchema^ContentType^DataSource^DynamicEnumProperty^EnumProperty^EnumValue^FileExtension^IntProperty^ItemType^NameValuePair^ProjectSchemaDefinitions^Rule^RuleBag^RuleSchema^StringListProperty^StringProperty^ValueEditor</value>
+  </data>
+  <data name="Microsoft.Build.Framework_ClassName" xml:space="preserve">
+    <value>BuildErrorEventArgs^BuildEventArgs^BuildEventContext^BuildFinishedEventArgs^BuildMessageEventArgs^BuildStartedEventArgs^BuildStatusEventArgs^BuildWarningEventArgs^CriticalBuildMessageEventArgs^CustomBuildEventArgs^ExternalProjectFinishedEventArgs^ExternalProjectStartedEventArgs^LazyFormattedBuildEventArgs^LoadInSeparateAppDomainAttribute^LoggerException^OutputAttribute^ProjectFinishedEventArgs^ProjectStartedEventArgs^RequiredAttribute^RequiredRuntimeAttribute^RunInMTAAttribute^RunInSTAAttribute^TargetFinishedEventArgs^TargetStartedEventArgs^TaskCommandLineEventArgs^TaskFinishedEventArgs^TaskPropertyInfo^TaskStartedEventArgs</value>
+  </data>
+  <data name="Microsoft.Build.Logging_ClassName" xml:space="preserve">
+    <value>ConfigurableForwardingLogger^ConsoleLogger^DistributedFileLogger^FileLogger^ForwardingLoggerRecord^LoggerDescription</value>
+  </data>
+  <data name="Microsoft.Build.Tasks.Deployment.Bootstrapper_ClassName" xml:space="preserve">
+    <value>BootstrapperBuilder^BuildMessage^BuildResults^BuildSettings^Product^ProductBuilder^ProductBuilderCollection^ProductCollection</value>
+  </data>
+  <data name="Microsoft.Build.Tasks_ClassName" xml:space="preserve">
+    <value>AL^AppDomainIsolatedTaskExtension^AspNetCompiler^AssignCulture^AssignProjectConfiguration^AssignTargetPath^CallTarget^CodeTaskFactory^CombinePath^CommandLineBuilderExtension^ConvertToAbsolutePath^Copy^CreateCSharpManifestResourceName^CreateItem^CreateManifestResourceName^CreateProperty^CreateVisualBasicManifestResourceName^Csc^Delete^Error^Exec^FindAppConfigFile^FindInList^FindUnderPath^FormatUrl^FormatVersion^GenerateApplicationManifest^GenerateBootstrapper^GenerateDeploymentManifest^GenerateManifestBase^GenerateResource^GenerateTrustInfo^GetAssemblyIdentity^GetFrameworkPath^GetFrameworkSdkPath^GetInstalledSDKLocations^GetReferenceAssemblyPaths^GetSDKReferenceFiles^LC^MakeDir^ManagedCompiler^Message^Move^MSBuild^ReadLinesFromFile^RegisterAssembly^RemoveDir^RemoveDuplicates^RequiresFramework35SP1Assembly^ResolveAssemblyReference^ResolveComReference^ResolveKeySource^ResolveManifestFiles^ResolveNativeReference^ResolveNonMSBuildProjectOutput^ResolveProjectBase^ResolveSDKReference^SGen^SignFile^TaskExtension^TaskLoggingHelperExtension^ToolTaskExtension^Touch^UnregisterAssembly^UpdateManifest^Vbc^Warning^WinMDExp^WriteCodeFragment^WriteLinesToFile^XamlTaskFactory^XmlPeek^XmlPoke^XslTransformation</value>
+  </data>
 </root>
