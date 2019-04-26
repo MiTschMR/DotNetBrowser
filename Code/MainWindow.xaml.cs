@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
-using System.Reflection;
-using System.Resources;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Forms;
 using System.Windows.Media.Imaging;
 
 namespace DotNetBrowser
@@ -822,6 +820,16 @@ namespace DotNetBrowser
                 GridView_Delegates.Visibility = Visibility.Hidden;
                 GridView_Delegates.ItemsSource = null;
             }
+        }
+
+        private void ButtonAboutClick(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://github.com/MiTschMR/DotNetBrowser");
+        }
+
+        private void ButtonCloseClick(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
 
         public class RootNode
