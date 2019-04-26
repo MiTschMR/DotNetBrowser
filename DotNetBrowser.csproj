@@ -162,11 +162,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Structs.resx</DependentUpon>
     </Compile>
-    <Compile Include="Pictures\Pictures.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Pictures.resx</DependentUpon>
-    </Compile>
     <Page Include="GUI\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -250,10 +245,6 @@
     <EmbeddedResource Include="APIs\Structs\Structs.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Structs.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pictures\Pictures.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Pictures.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
