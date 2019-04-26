@@ -12,7 +12,7 @@
                 <ColumnDefinition Width="3"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <ListView HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Background="Transparent">
+            <ListView HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Background="Transparent" RenderTransformOrigin="0.495,0.625" Margin="0,20,0,0">
                 <ListView.ItemContainerStyle>
                     <Style TargetType="{x:Type ListViewItem}">
                         <Setter Property="Background" Value="Transparent" />
@@ -25,7 +25,7 @@
                         </Setter>
                     </Style>
                 </ListView.ItemContainerStyle>
-                <TreeView x:Name="Namespaces_Classes" HorizontalAlignment="Left" MinHeight="200" MinWidth="100" Width="450" Height="740" FontSize="13" ItemsSource="{Binding GlobalNamespace}" Padding="0,5,0,5">
+                <TreeView x:Name="Namespaces_Classes" HorizontalAlignment="Left" MinHeight="200" MinWidth="100" Width="450" Height="655" FontSize="13" ItemsSource="{Binding GlobalNamespace}" Padding="0,5,0,5">
                     <TreeView.Resources>
                         <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="LightBlue" />
                         <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="Black" />
@@ -55,7 +55,7 @@
             <GridSplitter Background="LightGray"  ResizeDirection="Columns" Grid.Column="1" 
                   HorizontalAlignment="Center" VerticalAlignment="Stretch"
                   ResizeBehavior="PreviousAndNext" Focusable="False" Width="4"/>
-            <ListView x:Name="Details" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ScrollViewer.CanContentScroll="False">
+            <ListView x:Name="Details" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ScrollViewer.CanContentScroll="False" Margin="0,20,0,0">
                 <ListView.ItemContainerStyle>
                     <Style TargetType="{x:Type ListViewItem}">
                         <Setter Property="Background" Value="Transparent" />
@@ -182,5 +182,15 @@
                 </DataGrid>
             </ListView>
         </Grid>
+        <DockPanel x:Name="Menubar" HorizontalAlignment="Stretch" LastChildFill="False">
+            <Menu DockPanel.Dock="Top" Height="20" Background="White">
+                <MenuItem Header="_File" StaysOpenOnClick="True">
+                    <MenuItem x:Name="Button_Close" Header="_Close" Click="ButtonCloseClick"/>
+                </MenuItem>
+                <MenuItem Header="_Help" StaysOpenOnClick="True">
+                    <MenuItem x:Name="Button_About" Header="_About" Click="ButtonAboutClick"/>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
     </Grid>
 </Window>
