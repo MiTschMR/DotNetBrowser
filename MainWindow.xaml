@@ -73,7 +73,7 @@
                 <TextBlock x:Name="Text_Classes" Text="Classes" FontSize="15" FontWeight="Bold" Margin="10,10,0,0" Visibility="Hidden" />
                 <DataGrid x:Name="GridView_Classes" RowHeaderWidth="0" AutoGenerateColumns="False" CanUserResizeColumns="False" HorizontalAlignment="Left" Width="800" Margin="10,5,0,10" Visibility="Hidden">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="210">
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=OneWay}" Width="210">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="3,0,3,0" />
@@ -82,7 +82,7 @@
                                 </Style>
                             </DataGridTextColumn.ElementStyle>
                         </DataGridTextColumn>
-                        <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="588">
+                        <DataGridTextColumn Header="Description" Binding="{Binding Description, Mode=OneWay}" Width="588">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="4,2,4,2" />
@@ -95,7 +95,7 @@
                 <TextBlock x:Name="Text_Structs" Text="Structs" FontSize="15" FontWeight="Bold" Margin="10,10,0,0" Visibility="Hidden" />
                 <DataGrid x:Name="GridView_Structs" RowHeaderWidth="0" AutoGenerateColumns="False" CanUserResizeColumns="False" HorizontalAlignment="Left" Width="800" Margin="10,5,0,10" Visibility="Hidden">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="210">
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=OneWay}" Width="210">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="3,0,3,0" />
@@ -104,7 +104,7 @@
                                 </Style>
                             </DataGridTextColumn.ElementStyle>
                         </DataGridTextColumn>
-                        <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="588">
+                        <DataGridTextColumn Header="Description" Binding="{Binding Description, Mode=OneWay}" Width="588">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="4,2,4,2" />
@@ -117,7 +117,7 @@
                 <TextBlock x:Name="Text_Interfaces" Text="Interfaces" FontSize="15" FontWeight="Bold" Margin="10,10,0,0" Visibility="Hidden" />
                 <DataGrid x:Name="GridView_Interfaces" RowHeaderWidth="0" AutoGenerateColumns="False" CanUserResizeColumns="False" HorizontalAlignment="Left" Width="800" Margin="10,5,0,10" Visibility="Hidden">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="210">
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=OneWay}" Width="210">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="3,0,3,0" />
@@ -126,7 +126,7 @@
                                 </Style>
                             </DataGridTextColumn.ElementStyle>
                         </DataGridTextColumn>
-                        <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="588">
+                        <DataGridTextColumn Header="Description" Binding="{Binding Description, Mode=OneWay}" Width="588">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="4,2,4,2" />
@@ -139,7 +139,7 @@
                 <TextBlock x:Name="Text_Enums" Text="Enums" FontSize="15" FontWeight="Bold" Margin="10,10,0,0" Visibility="Hidden" />
                 <DataGrid x:Name="GridView_Enums" RowHeaderWidth="0" AutoGenerateColumns="False" CanUserResizeColumns="False" HorizontalAlignment="Left" Width="800" Margin="10,5,0,10" Visibility="Hidden">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="210">
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=OneWay}" Width="210">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="3,0,3,0" />
@@ -148,7 +148,7 @@
                                 </Style>
                             </DataGridTextColumn.ElementStyle>
                         </DataGridTextColumn>
-                        <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="588">
+                        <DataGridTextColumn Header="Description" Binding="{Binding Description, Mode=OneWay}" Width="588">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="4,2,4,2" />
@@ -161,7 +161,7 @@
                 <TextBlock x:Name="Text_Delegates" Text="Delegates" FontSize="15" FontWeight="Bold" Margin="10,10,0,0" Visibility="Hidden" />
                 <DataGrid x:Name="GridView_Delegates" RowHeaderWidth="0" AutoGenerateColumns="False" CanUserResizeColumns="False" HorizontalAlignment="Left" Width="800" Margin="10,5,0,10" Visibility="Hidden">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="210">
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=OneWay}" Width="210">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="3,0,3,0" />
@@ -170,7 +170,7 @@
                                 </Style>
                             </DataGridTextColumn.ElementStyle>
                         </DataGridTextColumn>
-                        <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="588">
+                        <DataGridTextColumn Header="Description" Binding="{Binding Description, Mode=OneWay}" Width="588">
                             <DataGridTextColumn.ElementStyle>
                                 <Style TargetType="{x:Type TextBlock}">
                                     <Setter Property="Padding" Value="4,2,4,2" />
