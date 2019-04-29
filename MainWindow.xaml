@@ -1,4 +1,4 @@
-﻿<Window x:Class="DotNetBrowser.MainWindow"
+<Window x:Class="DotNetBrowser.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -69,7 +69,7 @@
                     </Style>
                 </ListView.ItemContainerStyle>
                 <TextBlock x:Name="Text_Headline" Text="Welcome to DotNetBrowser" FontSize="18" FontWeight="Bold" Margin="10,10,0,0" />
-                <TextBlock x:Name="Text_Description" Text="Start browsing with the tree on the left side." FontSize="13" Margin="10,5,0,0" TextWrapping="Wrap" MaxWidth="820" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="Text_Description" Text="Start browsing with the tree on the left side." FontSize="13" Margin="10,5,0,0" TextWrapping="Wrap" MaxWidth="{Binding ElementName=Details, Path=ActualWidth}" HorizontalAlignment="Left"/>
                 <TextBlock x:Name="Text_Classes" Text="Classes" FontSize="15" FontWeight="Bold" Margin="10,10,0,0" Visibility="Hidden" />
                 <DataGrid x:Name="GridView_Classes" RowHeaderWidth="0" AutoGenerateColumns="False" CanUserResizeColumns="False" HorizontalAlignment="Left" Width="800" Margin="10,5,0,10" Visibility="Hidden">
                     <DataGrid.Columns>
